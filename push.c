@@ -32,5 +32,5 @@ void push(stack_t **head, unsigned int counter)
 	n = atoi(program_data.argument);
 	if (program_data.stack_flag == 0)
 		addnode(head, n);
-	 
 }
+
